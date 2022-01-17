@@ -37,20 +37,23 @@ function App() {
         width={['100%', '900px']}
         justifyContent={'center'}
       >
-        <Button
-          sx={{
-            backgroundColor: '#FF7E1D',
-            fontSize: ['16px', '24px'],
-            borderRadius: '50px',
-            fontFamily: 'Lato',
-            fontWeight: 'bold',
-            ":hover": {
-              cursor: 'pointer'
-            }
-          }}
-        >
-          Request Early Access
-        </Button>
+        <a href='https://airtable.com/shrknTAICnUOjbTTU' target={'_blank'}>
+          <Button
+            sx={{
+              backgroundColor: '#FF7E1D',
+              fontSize: ['16px', '24px'],
+              borderRadius: '50px',
+              fontFamily: 'Lato',
+              fontWeight: 'bold',
+              ":hover": {
+                cursor: 'pointer'
+              }
+            }}
+          >
+            Request Early Access
+          </Button>
+        </a>
+        
       </Flex>
       <Flex 
         px={[3, 5]}
