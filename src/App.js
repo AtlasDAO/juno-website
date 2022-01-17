@@ -11,7 +11,7 @@ function App() {
       sx={{
         width: '100%',
         justifyContent: 'center',
-        background: 'rgba(255, 206, 0, 0.02)',
+        backgroundColor: 'rgba(255, 206, 0, 0.02)',
         flexDirection: 'row',
         flexWrap: 'wrap',
       }}
